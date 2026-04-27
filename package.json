@@ -1,8 +1,8 @@
 {
- "name": "flowMartinez",
+ "name": "flowFelipe",
  "version": "1.0.0",
  "type": "module",
- "description": "primera aplicacion juanMartinezFlow",
+ "description": "primera aplicacion FelipeFlow",
  "scripts": {
  "start": "node src/app.js",
  "test": "node test/app.test.js"
