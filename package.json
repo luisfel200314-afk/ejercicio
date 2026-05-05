@@ -1,30 +1,10 @@
 {
-  "name": "flowangela",
+  "name": "flowfelipe",
   "version": "1.0.0",
-
+  "type": "module",
   "scripts": {
     "start": "npx live-server",
     "test": "node test/app.test.js"
   },
-
-  "main": "version.js",
-
-  "directories": {
-    "test": "test"
-  },
-
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luisfel200314-afk/ejercicio.git"
-  },
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-
-  "bugs": {
-    "url": "https://github.com/luisfel200314-afk/ejercicio/issues"
-  },
-
-  "homepage": "https://github.com/luisfel200314-afk/ejercicio#readme"
+  "license": "ISC"
 }
