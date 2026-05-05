@@ -1,51 +1,91 @@
+const VERSION = '1.2.0';
+
 export function saludar(nombre) {
-  return `Hola ${nombre}`;
+  return `Hola ${nombre}, bienvenido a Felipe`;
 }
 
-export function despedir(nombre) {
-  return `Adiós ${nombre}`;
+export function healthcheck() {
+  return {
+    status: 'ok',
+    version: VERSION,
+    timestamp: new Date().toISOString(),
+    message: 'Sistemas Felipe funcionando correctamente'
+  };
 }
 
-export function estadoSistema() {
-  return { estado: "activo" };
+export function ejercicio5(numero) {
+  let factorial = 1;
+
+  for (let i = 1; i <= numero; i++) {
+    factorial *= i;
+  }
+
+  return factorial;
 }
 
-export function sumar(a, b) {
-  return a + b;
+export function ejercicio6(n) {
+  let texto = [];
+
+  while (n >= 0) {
+    texto.push(n);
+    n--;
+  }
+
+  return texto;
 }
 
-export function restar(a, b) {
-  return a - b;
+export function ejercicio7(a, b) {
+  let pares = [];
+
+  for (let i = Math.min(a, b); i <= Math.max(a, b); i++) {
+    if (i % 2 === 0) pares.push(i);
+  }
+
+  return pares;
 }
 
-export function factorial(n) {
-  if (n === 0) return 1;
+export function ejercicio8(n) {
+  let impares = [];
 
-  let r = 1;
-  for (let i = 1; i <= n; i++) r *= i;
-  return r;
+  let i = 1;
+  while (i <= n) {
+    if (i % 2 !== 0) impares.push(i);
+    i++;
+  }
+
+  return impares;
 }
 
-export function ejercicio1() {
-  return Array.from({ length: 10 }, (_, i) => i + 1);
+export function ejercicio9(a, b) {
+  let resultado = 1;
+
+  for (let i = 1; i <= b; i++) {
+    resultado *= a;
+  }
+
+  return resultado;
 }
 
-export function ejercicio2() {
-  let s = 0;
-  for (let i = 1; i <= 100; i++) s += i;
-  return s;
+export function ejercicio10(n) {
+  let a = 0, b = 1;
+  let serie = [];
+
+  for (let i = 0; i < n; i++) {
+    serie.push(a);
+    let temp = a + b;
+    a = b;
+    b = temp;
+  }
+
+  return serie;
 }
 
-export function ejercicio3(a, b) {
-  let r = [];
-  for (let i = a; i <= b; i++) r.push(i);
-  return r;
-}
+export function ejercicio11(a, b) {
+  let resultado = [];
 
-export function ejercicio4() {
-  return Array.from({ length: 10 }, (_, i) => (i + 1) * 2);
-}
+  for (let i = 0; i < a.length; i++) {
+    resultado.push(a[i] + b[i]);
+  }
 
-export function ejercicio5(n) {
-  return factorial(n);
+  return resultado;
 }
