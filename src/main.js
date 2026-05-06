@@ -1,4 +1,4 @@
-import * as combine from './combine.js';
+import * as combine from './ejercicio.js';
 
 const numero1Input = document.querySelector('#numero1');
 const numero2Input = document.querySelector('#numero2');
