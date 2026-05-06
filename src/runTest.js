@@ -13,7 +13,7 @@ import {
 export function ejecutarTest() {
   const res = [];
 
-  res.push(saludar("Angela").includes("Angela") ? "✔ saludar" : "❌ saludar");
+  res.push(saludar("Angela").includes("Felipe") ? "✔ saludar" : "❌ saludar");
   res.push(sumar(2,2) === 4 ? "✔ sumar" : "❌ sumar");
   res.push(restar(5,3) === 2 ? "✔ restar" : "❌ restar");
   res.push(factorial(5) === 120 ? "✔ factorial" : "❌ factorial");
