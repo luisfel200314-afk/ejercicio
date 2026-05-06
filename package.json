@@ -1,14 +1,16 @@
 {
   "name": "flowfelipe",
   "version": "1.0.0",
+  "description": "Proyecto Felipe Flow",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest"
+    "test": "node test/app.test.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "vitest": "^4.1.5"
+    "vitest": "^3.2.4"
   }
 }

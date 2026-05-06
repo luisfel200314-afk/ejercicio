@@ -1,9 +1,20 @@
 const VERSION = '1.2.0';
-
 export function saludar(nombre) {
   return `Hola ${nombre}, bienvenido a Felipe`;
 }
 
+ export function despedir(nombre) {
+  return `Adiós ${nombre}`;
+}
+export function estadoSistema() {
+  return "Sistema activo";
+}
+export function sumar(a, b) {
+  return a + b;
+}
+export function restar(a, b) {
+  return a - b;
+}
 export function healthcheck() {
   return {
     status: 'ok',
