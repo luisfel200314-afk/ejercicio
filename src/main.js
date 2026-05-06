@@ -20,27 +20,27 @@ function calcular() {
 
     switch (operacion) {
   case 'ejercicio6':
-    resultado = combine.ejercicio6(num1, num2);
+    resultado = ejercicio.ejercicio6(num1, num2);
     break;
 
   case 'ejercicio7':
-    resultado = combine.ejercicio7(num1, num2);
+    resultado = ejercicio.ejercicio7(num1, num2);
     break;
 
   case 'ejercicio8':
-    resultado = combine.ejercicio8(num1);
+    resultado = ejercicio.ejercicio8(num1);
     break;
 
   case 'ejercicio9':
-    resultado = combine.ejercicio9(num1, num2);
+    resultado = ejercicio.ejercicio9(num1, num2);
     break;
 
   case 'ejercicio10':
-    resultado = combine.ejercicio10(num1);
+    resultado = ejercicio.ejercicio10(num1);
     break;
 
   case 'ejercicio11':
-    resultado = combine.ejercicio11(num1, num2);
+    resultado = ejercicio.ejercicio11(num1, num2);
     break;
 
   default:
