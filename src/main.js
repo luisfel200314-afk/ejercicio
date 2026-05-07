@@ -4,6 +4,7 @@ const numero1Input = document.querySelector('#numero1');
 const numero2Input = document.querySelector('#numero2');
 const operacionSelect = document.querySelector('#operacion');
 const btncalcular = document.querySelector('#btncalcular');
+const btntest = document.querySelector('#btntest');
 const resultadosDiv = document.querySelector('#resultados');
 
 function mostrarResultado(texto) {

@@ -12,7 +12,7 @@ import {
   ejercicio9,
   ejercicio10,
   ejercicio11
-} from "../src/main.js";
+} from "../src/ejercicio.js";
 
 function ejecutarPruebas() {
   let pasadas = 0;
